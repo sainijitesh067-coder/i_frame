@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        .container{
+            height: 600px;
+            border: 1px solid violet;
+        }
+        .header , .footer{
+            height: 20%;
+            background-color:aquamarine;
+        }
+        .center{
+            height: 60%;
+            background-color:bisque;
+            display: flex;
+        }
+        .left{
+            height: 100%;
+            width: 30%;
+            background-color:chocolate;
+        }
+        .right{
+            height: 100%;
+            width: 70%;
+            background-color: crimson;
+        }
+        .top{
+            height: 50%;
+            background-color:azure;
+        }
+        .bottom{
+            height: 50%;
+            background-color: purple;
+            display: flex;
+        }
+        .b1{
+            background-color: pink;
+            width: 50%;
+        }
+        .b2{
+            background-color: coral;
+            width: 50%;
+        }
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 align ="center">Flex Box</h1>
+    <div class="container">
+     <div class="header"><h2 align="center">Header</h2></div>
+     <div class="center">
+          <div class="left"><h2 align="center">Left</h2></div>
+          <div class="right">
+            <div class="top"><h2 align="center">Top</h2></div>
+            <div class="bottom">
+                <div class="bottom1 b1"><h2 align="center">B Left</h2></div>
+                <div class="bottom1 b2"><h2 align="center">B Right</h2></div>
+            </div>
+          </div> 
+        </div>
+        <div class="footer"><h3 align="center">Footer</h3></div>
+        </div>
+    
+</body>
+</html>
